@@ -23,7 +23,7 @@
   padding: 1rem 3rem;
   color: black;
   z-index: 10;
-  background-color: rgba(255, 255, 255, 0.849);
+  background-color: rgba(255, 255, 255, 0.932);
 
 }
 
@@ -207,13 +207,108 @@ main {
 }
 
 .details {
+  margin-top: 2%;
   margin-left: 7%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 4rem;
+  height: 3rem;
 }
 
 .details h6 {
   font-weight: 500;
+}
+
+.products {
+  font-family: 'Fredoka one', sans-serif;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1rem;
+  margin: 0 5% 0 10%;
+}
+
+.product-1 {
+  background-image: url('img-box1.png');
+  background-size: contain;
+  height: 25.4rem;
+  width: 20rem;
+  padding: 0.8em 1rem;
+}
+
+.products div div {
+  border: 3px solid #FFC222;
+  height: 100%;
+  border-radius: 1.2rem;
+}
+
+.products div h1 {
+  text-align: center;
+  position: relative;
+  background-color: #FFC222;
+  top: 88%;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+}
+
+.product-2 {
+  position: relative;
+  background-image: url('img-box2.png');
+  background-size: contain;
+  height: 25.4rem;
+  width: 20rem;
+  padding: 0.8em 1rem;
+  top: 5rem;
+}
+
+.product-3 {
+  background-image: url('img-box3.png');
+  background-size: contain;
+  height: 25.3rem;
+  width: 20rem;
+  padding: 0.8rem 1rem;
+}
+
+.samples {
+  display: flex;
+  flex-direction: row;
+  margin: 10rem 15rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.samples img {
+  width: 3rem;
+}
+
+.sample-container {
+  border: 0.25rem rgb(174, 173, 173) solid;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  padding: 1.7rem 2rem;
+  border-radius: 1rem;
+}
+
+.pentagon {
+  background-color: red;
+  color: white;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 2rem;
+  border-radius: 1rem;
+  position: relative;
+}
+.pentagon::after{
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0; 
+  height: 0rem; 
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #F44336;
 }

@@ -52,6 +52,47 @@ const Home1 = () => {
                         </div>
                     </div>
                 </div>
+                <div className="products">
+                    <div className="product-1">
+                        <div><h1>Restaurant</h1></div>
+                    </div>
+                    <div className="product-2">
+                        <div><h1>Coctail Bar</h1></div>
+                    </div>
+                    <div className="product-3">
+                        <div><h1>Private Dining</h1></div>
+                    </div>
+
+                </div>
+                <div className="samples">
+                    <div className="pentagon">
+                        <div className="icons">
+                            <img src="sample.png" alt="" />
+                        </div>
+                        <h3>Dessert</h3>
+                    </div>
+                    <div className="sample-container">
+                        <div >
+                            <img src="sample1.png" alt="" />
+                        </div>
+                        <h3>Dessert</h3>
+                    </div>
+                    <div className="sample-container">
+                        <div className="icons">
+                            <img src="sample2.png" alt="" />
+                        </div>
+                        <h3>Dessert</h3>
+                    </div>
+                    <div className="sample-container">
+                        <div className="icons">
+                            <img src="sample3.png" alt="" />
+                        </div>
+                        <h3>Dessert</h3>
+                    </div>
+
+
+
+                </div>
             </main>
         </div>
     )
