@@ -50,7 +50,7 @@ main {
 
 .hero {
   padding: 7% 15%;
-  background-image: url('chicken.png');
+  background-image: url('/chicken.png');
   height: 28.5rem;
   background-size: contain;
   color: white;
