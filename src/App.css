@@ -228,7 +228,7 @@ main {
 }
 
 .product-1 {
-  background-image: url('img-box1.png');
+  background-image: url('/img-box1.png');
   background-size: contain;
   height: 25.4rem;
   width: 20rem;
@@ -253,7 +253,7 @@ main {
 
 .product-2 {
   position: relative;
-  background-image: url('img-box2.png');
+  background-image: url('/img-box2.png');
   background-size: contain;
   height: 25.4rem;
   width: 20rem;
@@ -262,7 +262,7 @@ main {
 }
 
 .product-3 {
-  background-image: url('img-box3.png');
+  background-image: url('/img-box3.png');
   background-size: contain;
   height: 25.3rem;
   width: 20rem;
