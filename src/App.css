@@ -635,7 +635,8 @@ main {
   display: flex;
   margin: 1rem 5rem;
 }
-.feedbacks h1{
+
+.feedbacks h1 {
   width: 15rem;
   line-height: 3rem;
 
@@ -679,13 +680,23 @@ main {
   border-radius: 1rem;
   padding: 2rem;
 }
-.feedbacks-left p{
+
+.feedbacks-left p {
   margin-bottom: 1rem;
 }
-.yellow{
+
+.yellow {
   position: relative;
   float: right;
-  width: 2rem;
-  height: 2rem;
+  width: 3.5rem;
+  height:3.5rem;
   background-color: #FFC222;
+  border-radius: 50%;
+  top: -2rem;
+}
+
+.feedbacks-head {
+  position: relative;
+  left: 5rem;
+  top: 3rem;
 }

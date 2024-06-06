@@ -211,7 +211,7 @@ const Home1 = () => {
 
                 </div>
                 <div className="feedbacks">
-                    <div>
+                    <div className="feedbacks-head">
                         <h6 style={{ color: 'red' }}>TESTIMONIALS & REVIEWS</h6>
                         <h1>Our Customers Feedbacks</h1>
                         <div className="feedbacks-left">
