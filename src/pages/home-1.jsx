@@ -89,12 +89,129 @@ const Home1 = () => {
                         </div>
                         <h3>Dessert</h3>
                     </div>
+                </div>
+                <div className="BBQ">
+                    <img src="/chickens.png" alt="" />
+                    <div className="BBQ-container">
+                        <h2>BBQ</h2>
+                        <div>
+                            <h6>Sake BBQ sauce      <span style={{ color: 'red', float: 'right' }}>$9.00</span> </h6>
+                            <p>redish,black sesame seeds, coriander</p>
+                            <hr />
+                        </div>
+                        <div>
+                            <h6>BBQ baby back ribs  <span style={{ color: 'red', float: 'right' }}>$16.00</span> </h6>
+                            <p>sticky Asian glaze,charred lime,chili cashews</p>
+                            <hr />
+                        </div>
+                        <div>
+                            <h6>Half smoked chicken <span style={{ color: 'red', float: 'right' }}>$34.00</span> </h6>
+                            <p>misa butter glaze,charred lime wedge,sake bbq</p>
+                            <hr />
+                        </div>
+                        <div>
+                            <h6>Dusted chicken wings  <span style={{ color: 'red', float: 'right' }}>$40.00</span> </h6>
+                            <p>tossed in Korean hot sauce,picked radish</p>
 
+                        </div>
+                    </div>
+                </div>
+                <div className="discover-menu">
+                    <h2>Discover Menu</h2>
+                    <div className="discover-menu-container">
+                        <div className="img1">
+                            <h1>Steaks & BBQ</h1>
+                            <p>canonical classics to obscure tiki drinks</p>
+                            <div className="menu-badge">
+                                <h1>$120</h1>
+                                <h5>person</h5>
+                            </div>
+                        </div>
+                        <div className="img2">
+                            <h1>Steaks & BBQ</h1>
+                            <p>canonical classics to obscure tiki drinks</p>
+                            <div className="menu-badge">
+                                <h1>$120</h1>
+                                <h5>person</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="menu-form">
+                    <div className="form-head">
+                        <h1>RESERVE A TABLE</h1>
+                        <p>Discover our NEw Menu !</p>
+                    </div>
+                    <form >
+                        <div className="inputs">
+                            <div className="input1">
+                                <input type="number" placeholder="No of Guest" />
+                                <input type="text" placeholder="Full Name" />
+                            </div>
+                            <div className="input2">
+                                <div className="input21">
+                                    <input type="date" placeholder="Date" />
+                                    <input type="time" placeholder="Time" />
+                                </div>
+                                <input type="tel" placeholder="Phone No" />
+                            </div>
 
+                        </div>
+                        <button type="submit"><span>Submit</span></button>
+                    </form>
+                </div>
+                <div className="featured_dishes">
+                    <h1>Featured Dishes</h1>
+                    <div className="dishes">
+                        <div>
+                            <h4>Sale</h4>
+                            <span>
+                                <img src="chickens.png" alt="" />
+                            </span>
+                            <span className="dish-content">
+                                <span className="dish-img"></span>
+                                <h5>Crispy Fried Chicken</h5>
+                                <h6>$14.85</h6> <span>$10.85</span>
+                                <span className="lock">
+                                    <img src="add-cart.png" alt="" />
+                                </span>
+                            </span>
+
+                        </div>
+                        <div>
+                            <h4>Sale</h4>
+                            <span >
+                                <img src="dish1.png" alt="" />
+                            </span>
+                            <span className="dish-content">
+                                <span className="dish-img"></span>
+                                <h5>Crispy Fried Chicken</h5>
+                                <h6>$14.85</h6> <span>$10.85</span>
+                                <span className="lock">
+                                    <img src="add-cart.png" alt="" />
+                                </span>
+                            </span>
+
+                        </div>
+                        <div>
+                            <h4>Sale</h4>
+                            <span>
+                                <img src="dish2.png" alt="" />
+                            </span>
+                            <span className="dish-content">
+                                <span className="dish-img"></span>
+                                <h5>Crispy Fried Chicken</h5>
+                                <h6>$14.85</h6> <span>$10.85</span>
+                                <span className="lock">
+                                    <img src="add-cart.png" alt="" />
+                                </span>
+                            </span>
+                        </div>
+                    </div>
 
                 </div>
-            </main>
-        </div>
+            </main >
+        </div >
     )
 }
 

@@ -6,10 +6,32 @@
   color: inherit;
   border: 0;
   text-decoration: none;
+  font-family: 'Fredoka one', sans-serif;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  font-family: 'Poppins', sans-serif;
+}
+
+input {
+  color: black;
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 100;
 }
 
 .header {
-  font-family: 'Poppins', sans-serif;
   font-weight: 700;
   top: 0;
   left: 0;
@@ -24,11 +46,11 @@
   color: black;
   z-index: 10;
   background-color: rgba(255, 255, 255, 0.932);
-
 }
 
 
 .header button {
+  font-family: 'Poppins', sans-serif;
   padding: 1rem 2rem;
   border-radius: 0.5rem;
   cursor: pointer;
@@ -68,12 +90,10 @@ main {
 }
 
 .hero-head h1 {
-  font-family: 'Fredoka one', sans-serif;
   margin-bottom: 1rem;
 }
 
 .hero-head p {
-  font-family: 'Poppins', sans-serif;
   color: grey;
 }
 
@@ -188,11 +208,10 @@ main {
 .left-about h5 {
   color: rgb(253, 83, 83);
   font-weight: 100;
-  font-family: 'Fredoka one', sans-serif;
 }
 
 .left-about h1 {
-  font-family: 'Fredoka one', sans-serif;
+
   font-weight: 500;
 }
 
@@ -202,7 +221,6 @@ main {
 }
 
 .director h2 {
-  font-family: 'Fredoka one', sans-serif;
   font-weight: 100;
 }
 
@@ -220,7 +238,6 @@ main {
 }
 
 .products {
-  font-family: 'Fredoka one', sans-serif;
   display: flex;
   justify-content: space-around;
   font-size: 1rem;
@@ -300,15 +317,313 @@ main {
   border-radius: 1rem;
   position: relative;
 }
-.pentagon::after{
+
+.pentagon::after {
   content: '';
   position: absolute;
   bottom: -10px;
   left: 50%;
   transform: translateX(-50%);
-  width: 0; 
-  height: 0rem; 
+  width: 0;
+  height: 0rem;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
   border-top: 10px solid #F44336;
+}
+
+.BBQ {
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 1rem 0rem 0 8rem;
+  height: 30rem;
+}
+
+.BBQ img {
+  width: 25rem;
+}
+
+.BBQ-container {
+  position: relative;
+  background-color: rgb(236, 246, 246);
+  display: flex;
+  left: -13rem;
+  top: -1rem;
+  flex-direction: column;
+  padding: 2rem 5rem;
+  margin: 1rem 1rem;
+  border-radius: 1rem;
+  justify-content: space-between;
+  height: fit-content;
+  z-index: -1;
+}
+
+.BBQ-container div {
+  margin-left: 10rem;
+}
+
+.BBQ div h2 {
+  font-size: 2rem;
+  margin: 0.5rem 10rem;
+  font-weight: 400;
+}
+
+.BBQ-container h6 {
+  font-weight: 500;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.BBQ-container p {
+  color: grey;
+  font-weight: 500;
+  font-size: 0.7rem;
+  margin-bottom: 1rem;
+}
+
+.discover-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.discover-menu h2 {
+  text-align: center;
+  position: relative;
+  font-size: 2rem;
+  margin: 2rem 0;
+  font-weight: 100;
+  padding: .7rem 0;
+}
+
+.discover-menu h2::after {
+  content: '';
+  position: absolute;
+  left: 45%;
+  bottom: -3px;
+  /* Adjust this value to position the underline correctly */
+  width: 8rem;
+  border-bottom: 7px solid #FFC222;
+  border-radius: 1rem;
+  /* Customize thickness, style, and color */
+}
+
+.discover-menu-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 10rem;
+}
+
+.discover-menu-container div {
+  margin: 0 1rem;
+}
+
+.menu-badge {
+  position: relative;
+  background-color: #FFC222;
+  border-radius: 50%;
+  width: fit-content;
+  padding: 2rem;
+  text-align: center;
+  color: black;
+  top: 5rem;
+  left: -2rem;
+}
+
+.menu-badge h1 {
+  color: red;
+  font-size: 1.5rem;
+}
+
+.img1 {
+  background-image: url('/banner1.png');
+  background-repeat: none;
+  background-position: center;
+  border-radius: 2rem;
+  color: white;
+  background-size: cover;
+  padding: 2rem 5rem;
+}
+
+.img2 {
+  background-image: url('/banner2.png');
+  background-repeat: none;
+  background-position: center;
+  border-radius: 2rem;
+  color: white;
+  background-size: cover;
+  padding: 2rem 5rem;
+}
+
+.img2 p,
+.img1 p {
+  color: rgb(184, 182, 182);
+}
+
+.menu-form {
+  display: flex;
+  flex-direction: row;
+  margin: 5rem;
+  background-color: rgb(250, 73, 73);
+  color: white;
+  justify-content: space-between;
+  padding: 2rem 5rem;
+  border-radius: 1rem;
+}
+
+.menu-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: row;
+  margin-left: 0.4rem;
+}
+
+::placeholder {
+  font-family: 'Poppins', sans-serif;
+  color: #4c4a4a;
+}
+
+.input1,
+.input2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.7rem;
+}
+
+
+.input1 input {
+  padding: 1rem 3rem;
+  margin: 0.2rem 0;
+  border-radius: 0.5rem;
+  width: auto;
+}
+
+.input2 input {
+  padding: 1rem 3rem;
+  margin: 0.2rem 0.5rem;
+  border-radius: 0.5rem;
+  width: 21rem;
+}
+
+.input21 input {
+  padding: 1rem 2rem;
+  margin: 0.1rem 0.5rem;
+  border-radius: 0.5rem;
+  width: 10rem;
+}
+
+.menu-form button {
+  position: relative;
+  border: #FFC222 1.5px solid;
+  padding: 0.7rem 0;
+  background-color: transparent;
+  border-radius: 0.8rem;
+  width: 6rem;
+  height: 3.4rem;
+  margin: 1rem;
+  left: 16rem;
+}
+
+.menu-form button span {
+  position: relative;
+  background-color: #FFC222;
+  padding: .7rem 1.4rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  font-size: large;
+  left: -1rem;
+  transition: background-color 0.2s;
+}
+
+.menu-form button span:hover {
+  background-color: #efaf0e;
+}
+
+.form-head h1 {
+  text-align: center;
+  font-weight: 100;
+  width: 9rem;
+  margin-top: 2rem;
+}
+
+.featured_dishes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dishes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.featured_dishes h1{
+  position: relative;
+  text-align: center;
+  position: relative;
+padding: 1rem 0;
+}
+.featured_dishes h1::before{
+  content: '';
+  position: absolute;
+  left: 25%;
+  bottom: -5px;
+  width: 8rem;
+  border-bottom: 7px solid #FFC222;
+  border-radius: 1rem;
+}
+
+.dishes img {
+  width: 10rem;
+}
+
+.lock img {
+  position: relative;
+  width: 2rem;
+  float: right;
+  right: -1rem;
+
+}
+
+.dishes div {
+  border: 0.2rem solid #FFC222;
+  margin: 1rem;
+  padding: 1rem 3rem;
+  border-radius: 1rem;
+  height: 20rem;
+}
+
+.dishes h4 {
+  position: relative;
+  background-color: #FFC222;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+  top: -0.5rem;
+  left: -2rem;
+}
+
+.dish-img {
+  position: relative;
+  background-color:rgb(241, 87, 87);
+  display: flex;
+  height: 4rem;
+  width: 10rem;
+  border-radius: 50rem;
+  top: -4rem;
+  z-index: -1;
+}
+.dish-content{
+  position: relative;
+  top: -3rem;
 }
