@@ -564,13 +564,15 @@ main {
   flex-direction: row;
   justify-content: space-between;
 }
-.featured_dishes h1{
+
+.featured_dishes h1 {
   position: relative;
   text-align: center;
   position: relative;
-padding: 1rem 0;
+  padding: 1rem 0;
 }
-.featured_dishes h1::before{
+
+.featured_dishes h1::before {
   content: '';
   position: absolute;
   left: 25%;
@@ -615,7 +617,7 @@ padding: 1rem 0;
 
 .dish-img {
   position: relative;
-  background-color:rgb(241, 87, 87);
+  background-color: rgb(241, 87, 87);
   display: flex;
   height: 4rem;
   width: 10rem;
@@ -623,7 +625,67 @@ padding: 1rem 0;
   top: -4rem;
   z-index: -1;
 }
-.dish-content{
+
+.dish-content {
   position: relative;
   top: -3rem;
+}
+
+.feedbacks {
+  display: flex;
+  margin: 1rem 5rem;
+}
+.feedbacks h1{
+  width: 15rem;
+  line-height: 3rem;
+
+}
+
+.feedbacks img {
+  width: 10rem;
+}
+
+.feedbacks-imgs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feedback1 {
+  position: relative;
+  top: 1rem;
+  left: -15rem;
+}
+
+.feedback2 {
+  position: relative;
+  top: -0.5rem;
+  left: -22rem;
+  background-color: rgba(247, 72, 72, 0.941);
+  border-radius: 1rem;
+  z-index: -1;
+}
+
+.feedback3 {
+  position: relative;
+  bottom: 8rem;
+  left: -10rem;
+}
+
+.feedbacks-left {
+  margin-top: 2rem;
+  width: 40%;
+  border: #FFC222 0.2rem solid;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+.feedbacks-left p{
+  margin-bottom: 1rem;
+}
+.yellow{
+  position: relative;
+  float: right;
+  width: 2rem;
+  height: 2rem;
+  background-color: #FFC222;
 }

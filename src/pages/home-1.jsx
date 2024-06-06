@@ -210,6 +210,26 @@ const Home1 = () => {
                     </div>
 
                 </div>
+                <div className="feedbacks">
+                    <div>
+                        <h6 style={{ color: 'red' }}>TESTIMONIALS & REVIEWS</h6>
+                        <h1>Our Customers Feedbacks</h1>
+                        <div className="feedbacks-left">
+                            <p>A good restaurant is like a vacation; it
+                                transports you, and it becomes a lot more
+                                than just about the food. All great deeds
+                                and all great thoughts
+                            </p>
+                            <h3>Bratlee Hamint</h3>
+                            <div className="yellow"></div>
+                        </div>
+                    </div>
+                    <div className="feedbacks-imgs">
+                        <img className="feedback1" src="feedback1.png" alt="" />
+                        <img className="feedback2" src="feedback2.png" alt="" />
+                        <img className="feedback3" src="feedback3.png" alt="" />
+                    </div>
+                </div>
             </main >
         </div >
     )
