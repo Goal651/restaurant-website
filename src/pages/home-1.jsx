@@ -230,6 +230,40 @@ const Home1 = () => {
                         <img className="feedback3" src="feedback3.png" alt="" />
                     </div>
                 </div>
+                <div className="experts">
+                    <div className="experts-head">
+                        <h1>Meet Our Expert</h1>
+                    </div>
+                    <div className="experts-imgs">
+
+                        <div >
+                            <img className="chef1" src="chef1.png" alt="" />
+                            <div className="chef-details">
+                                <h6>Dessert specialist</h6>
+                                <h3>Thomas Walim</h3>
+                                <img src="sign.png" alt="" className="sign" />
+                            </div>
+                        </div>
+                        <div >
+                            <img className="chef1" src="chef2.png" alt="" />
+                            <div className="chef-details">
+                                <h6>Dessert specialist</h6>
+                                <h3>Thomas Walim</h3>
+                                <img src="sign.png" alt="" className="sign" />
+                            </div>
+                        </div>
+                        <div >
+                            <img className="chef1" src="chef3.png" alt="" />
+                            <div className="chef-details">
+                                <h6>Dessert specialist</h6>
+                                <h3>Thomas Walim</h3>
+                                <img src="sign.png" alt="" className="sign" />
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
             </main >
         </div >
     )

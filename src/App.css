@@ -13,6 +13,10 @@ p {
   font-family: 'Poppins', sans-serif;
 }
 
+h6 {
+  color: rgb(241, 87, 87);
+}
+
 a {
   font-family: 'Poppins', sans-serif;
 }
@@ -689,7 +693,7 @@ main {
   position: relative;
   float: right;
   width: 3.5rem;
-  height:3.5rem;
+  height: 3.5rem;
   background-color: #FFC222;
   border-radius: 50%;
   top: -2rem;
@@ -699,4 +703,55 @@ main {
   position: relative;
   left: 5rem;
   top: 3rem;
+}
+
+.experts {
+  margin: 1rem 5rem;
+}
+
+.experts-imgs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.experts-imgs img {
+  width: 15rem;
+}
+
+.experts h1 {
+  position: relative;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.experts h1::before {
+  content: '';
+  position: absolute;
+  left: 45%;
+  bottom: -1rem;
+  width: 8rem;
+  border-bottom: 7px solid #FFC222;
+  border-radius: 1rem;
+}
+
+.chef-details {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 0.2rem solid rgb(204, 202, 202);
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  top: -5rem;
+  background-color: white;
+}
+
+.chef-details * {
+  margin: 1rem;
+}
+
+.chef-details img {
+  width: 4rem;
 }
