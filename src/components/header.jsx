@@ -10,7 +10,7 @@ function Header() {
                 <img src="Logo-Pizza-Hut 2.png" alt="Logo" />
                 <img src="pizza hut.png" alt="" />
             </div>
-            <Link to={'/home'}>Home</Link>
+            <Link to={'/'}>Home</Link>
             <Link to={'/about-us'}>About Us</Link>
             <Link to={'/shop'}>Shop</Link>
             <Link to={'/blog'}>Blog</Link>

@@ -405,7 +405,6 @@ main {
   position: absolute;
   left: 45%;
   bottom: -3px;
-  /* Adjust this value to position the underline correctly */
   width: 8rem;
   border-bottom: 7px solid #FFC222;
   border-radius: 1rem;
