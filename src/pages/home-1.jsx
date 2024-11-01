@@ -1,272 +1,286 @@
-import Header from "../components/header"
+import Header from "../components/header";
+
 const Home1 = () => {
     return (
-        <div className="home-1">
+        <div className="bg-white">
             <Header />
             <main>
-                <div className="hero">
-                    <div className="hero-head">
-                        <h1>The Perfect Space to Enjoy Fantastic Food</h1>
-                        <p>Festive dining at Farthings where are strong believers in using the very best produce</p>
-                    </div>
+                <div className="hero  h-[630px]  flex justify-center"
+                    style={{
+                        backgroundImage: "url('chicken.png')",
+                        backgroundSize: "cover",
+                        backgroundRepeat: "no-repeat",
+                    }}>
+                    <div className="flex flex-col  gap-20">
+                        <div className="text-white  w-1/2">
+                            <div className="font-bold text-[50px] font-fredoka">The Perfect Space to Enjoy Fantastic Food</div>
+                            <div className="text-lg mt-2 ">Festive dining at Farthings where are strong believers in using the very best produce</div>
+                        </div>
 
-                    <div className="hero-video">
-                        <div className="hero-menus">
-                            <div>See our Menus</div>
+                        <div className=" flex gap-4 text-white">
+                            <div className="border-4 border-red-700 max-w-fit rounded-xl py-1">
+                                <button className="relative right-2 btn border-0 bg-red-600 w-full  text-white font-fredoka rounded-xl">See our Menus</button>
+                            </div>
+                            <button className="border-2 border-white rounded-full p-5 w-fit">
+                                <img src="play.png" alt="" />
+                            </button>
+                            <div
+                            className="font-bold"
+                            > Video</div>
                         </div>
-                        <div className="hero-controls">
-                            <img src="play.png" alt="" />
+                        <div>
+                            <img src="bullets.png" alt="" />
                         </div>
-                        <h3>Video</h3>
+
                     </div>
-                    <div className="dots">
-                        <img src="bullets.png" alt="" />
-                    </div>
-                    <div className="weekly-special">
-                        <h5 className="weekly-special-badge">Weekly Special</h5>
-                        <h3>$90.85</h3>
-                        <h3>Silicon Pizza</h3>
-                        <h3>*****</h3>
+                    <div
+                        className="text-white flex gap-10 border-solid border-4 border-yellow-500 rounded-3xl p-4  bg-black  bg-opacity-75 justify-items-center"
+                    >
+                        <div className="w-1/2 font-semibold justify-center">
+                            <h5>Weekly Special</h5>
+                            <div className="">$90.85</div>
+                            <div className="">Silicon Pizza</div>
+                            <div className="text-yellow-500 font-bold text-lg">*****</div>
+                        </div>
                         <img src="weeklySp.png" alt="" />
                     </div>
-
                 </div>
-                <div className="about">
-                    <div className="left-about">
+
+                <div>
+                    <div>
                         <h5>ABOUT THE FOOD RESTAURANT</h5>
                         <h1>New Ground with Dishes to be enjoyed</h1>
                     </div>
-                    <div className="right-about">
+                    <div>
                         <p>Nisl quam nestibulum ac quam nec odio eleme aucan ligula. Orci
                             varius nat oque pena tibus et urient monte nascete ridiculus mus
                             nellentesq um ac qu am nec odio rbine. Nisl quam nestibu aucan
                             ligula.</p>
-                        <div className="director">
-                            <div className="profile">
+                        <div>
+                            <div>
                                 <img src="author.png" alt="" />
                             </div>
-                            <div className="details">
+                            <div>
                                 <h2>Willimes James</h2>
                                 <h6>Director and Chief Operations Officer</h6>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="products">
-                    <div className="product-1">
+
+                <div>
+                    <div>
                         <div><h1>Restaurant</h1></div>
                     </div>
-                    <div className="product-2">
+                    <div>
                         <div><h1>Coctail Bar</h1></div>
                     </div>
-                    <div className="product-3">
+                    <div>
                         <div><h1>Private Dining</h1></div>
                     </div>
-
                 </div>
-                <div className="samples">
-                    <div className="pentagon">
-                        <div className="icons">
+
+                <div>
+                    <div>
+                        <div>
                             <img src="sample.png" alt="" />
                         </div>
                         <h3>Dessert</h3>
                     </div>
-                    <div className="sample-container">
-                        <div >
+                    <div>
+                        <div>
                             <img src="sample1.png" alt="" />
                         </div>
                         <h3>Dessert</h3>
                     </div>
-                    <div className="sample-container">
-                        <div className="icons">
+                    <div>
+                        <div>
                             <img src="sample2.png" alt="" />
                         </div>
                         <h3>Dessert</h3>
                     </div>
-                    <div className="sample-container">
-                        <div className="icons">
+                    <div>
+                        <div>
                             <img src="sample3.png" alt="" />
                         </div>
                         <h3>Dessert</h3>
                     </div>
                 </div>
-                <div className="BBQ">
+
+                <div>
                     <img src="/chickens.png" alt="" />
-                    <div className="BBQ-container">
+                    <div>
                         <h2>BBQ</h2>
                         <div>
-                            <h6>Sake BBQ sauce      <span style={{ color: 'red', float: 'right' }}>$9.00</span> </h6>
+                            <h6>Sake BBQ sauce <span style={{ color: 'red', float: 'right' }}>$9.00</span></h6>
                             <p>redish,black sesame seeds, coriander</p>
                             <hr />
                         </div>
                         <div>
-                            <h6>BBQ baby back ribs  <span style={{ color: 'red', float: 'right' }}>$16.00</span> </h6>
+                            <h6>BBQ baby back ribs <span style={{ color: 'red', float: 'right' }}>$16.00</span></h6>
                             <p>sticky Asian glaze,charred lime,chili cashews</p>
                             <hr />
                         </div>
                         <div>
-                            <h6>Half smoked chicken <span style={{ color: 'red', float: 'right' }}>$34.00</span> </h6>
+                            <h6>Half smoked chicken <span style={{ color: 'red', float: 'right' }}>$34.00</span></h6>
                             <p>misa butter glaze,charred lime wedge,sake bbq</p>
                             <hr />
                         </div>
                         <div>
-                            <h6>Dusted chicken wings  <span style={{ color: 'red', float: 'right' }}>$40.00</span> </h6>
+                            <h6>Dusted chicken wings <span style={{ color: 'red', float: 'right' }}>$40.00</span></h6>
                             <p>tossed in Korean hot sauce,picked radish</p>
+                        </div>
+                    </div>
+                </div>
 
-                        </div>
-                    </div>
-                </div>
-                <div className="discover-menu">
+                <div>
                     <h2>Discover Menu</h2>
-                    <div className="discover-menu-container">
-                        <div className="img1">
+                    <div>
+                        <div>
                             <h1>Steaks & BBQ</h1>
                             <p>canonical classics to obscure tiki drinks</p>
-                            <div className="menu-badge">
+                            <div>
                                 <h1>$120</h1>
                                 <h5>person</h5>
                             </div>
                         </div>
-                        <div className="img2">
+                        <div>
                             <h1>Steaks & BBQ</h1>
                             <p>canonical classics to obscure tiki drinks</p>
-                            <div className="menu-badge">
+                            <div>
                                 <h1>$120</h1>
                                 <h5>person</h5>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="menu-form">
-                    <div className="form-head">
+
+                <div>
+                    <div>
                         <h1>RESERVE A TABLE</h1>
-                        <p>Discover our NEw Menu !</p>
+                        <p>Discover our New Menu!</p>
                     </div>
-                    <form >
-                        <div className="inputs">
-                            <div className="input1">
+                    <form>
+                        <div>
+                            <div>
                                 <input type="number" placeholder="No of Guest" />
                                 <input type="text" placeholder="Full Name" />
                             </div>
-                            <div className="input2">
-                                <div className="input21">
+                            <div>
+                                <div>
                                     <input type="date" placeholder="Date" />
                                     <input type="time" placeholder="Time" />
                                 </div>
                                 <input type="tel" placeholder="Phone No" />
                             </div>
-
                         </div>
                         <button type="submit"><span>Submit</span></button>
                     </form>
                 </div>
-                <div className="featured_dishes">
+
+                <div>
                     <h1>Featured Dishes</h1>
-                    <div className="dishes">
+                    <div>
                         <div>
                             <h4>Sale</h4>
                             <span>
                                 <img src="chickens.png" alt="" />
                             </span>
-                            <span className="dish-content">
-                                <span className="dish-img"></span>
+                            <span>
+                                <span></span>
                                 <h5>Crispy Fried Chicken</h5>
                                 <h6>$14.85</h6> <span>$10.85</span>
-                                <span className="lock">
+                                <span>
                                     <img src="add-cart.png" alt="" />
                                 </span>
                             </span>
-
                         </div>
                         <div>
                             <h4>Sale</h4>
-                            <span >
+                            <span>
                                 <img src="dish1.png" alt="" />
                             </span>
-                            <span className="dish-content">
-                                <span className="dish-img"></span>
+                            <span>
+                                <span></span>
                                 <h5>Crispy Fried Chicken</h5>
                                 <h6>$14.85</h6> <span>$10.85</span>
-                                <span className="lock">
+                                <span>
                                     <img src="add-cart.png" alt="" />
                                 </span>
                             </span>
-
                         </div>
                         <div>
                             <h4>Sale</h4>
                             <span>
                                 <img src="dish2.png" alt="" />
                             </span>
-                            <span className="dish-content">
-                                <span className="dish-img"></span>
+                            <span>
+                                <span></span>
                                 <h5>Crispy Fried Chicken</h5>
                                 <h6>$14.85</h6> <span>$10.85</span>
-                                <span className="lock">
+                                <span>
                                     <img src="add-cart.png" alt="" />
                                 </span>
                             </span>
                         </div>
                     </div>
-
                 </div>
-                <div className="feedbacks">
-                    <div className="feedbacks-head">
+
+                <div>
+                    <div>
                         <h6 style={{ color: 'red' }}>TESTIMONIALS & REVIEWS</h6>
                         <h1>Our Customers Feedbacks</h1>
-                        <div className="feedbacks-left">
+                        <div>
                             <p>A good restaurant is like a vacation; it
                                 transports you, and it becomes a lot more
                                 than just about the food. All great deeds
                                 and all great thoughts
                             </p>
                             <h3>Bratlee Hamint</h3>
-                            <div className="yellow"></div>
+                            <div></div>
                         </div>
                     </div>
-                    <div className="feedbacks-imgs">
-                        <img className="feedback1" src="feedback1.png" alt="" />
-                        <img className="feedback2" src="feedback2.png" alt="" />
-                        <img className="feedback3" src="feedback3.png" alt="" />
+                    <div>
+                        <img src="feedback1.png" alt="" />
+                        <img src="feedback2.png" alt="" />
+                        <img src="feedback3.png" alt="" />
                     </div>
                 </div>
-                <div className="experts">
-                    <div className="experts-head">
+
+                <div>
+                    <div>
                         <h1>Meet Our Expert</h1>
                     </div>
-                    <div className="experts-imgs">
-
-                        <div >
-                            <img className="chef1" src="chef1.png" alt="" />
-                            <div className="chef-details">
+                    <div>
+                        <div>
+                            <img src="chef1.png" alt="" />
+                            <div>
                                 <h6>Dessert specialist</h6>
                                 <h3>Thomas Walim</h3>
-                                <img src="sign.png" alt="" className="sign" />
+                                <img src="sign.png" alt="" />
                             </div>
                         </div>
-                        <div >
-                            <img className="chef1" src="chef2.png" alt="" />
-                            <div className="chef-details">
+                        <div>
+                            <img src="chef2.png" alt="" />
+                            <div>
                                 <h6>Dessert specialist</h6>
                                 <h3>Thomas Walim</h3>
-                                <img src="sign.png" alt="" className="sign" />
+                                <img src="sign.png" alt="" />
                             </div>
                         </div>
-                        <div >
-                            <img className="chef1" src="chef3.png" alt="" />
-                            <div className="chef-details">
+                        <div>
+                            <img src="chef3.png" alt="" />
+                            <div>
                                 <h6>Dessert specialist</h6>
                                 <h3>Thomas Walim</h3>
-                                <img src="sign.png" alt="" className="sign" />
+                                <img src="sign.png" alt="" />
                             </div>
                         </div>
-
-
                     </div>
                 </div>
-            </main >
-        </div >
-    )
-}
+            </main>
+        </div>
+    );
+};
 
-export default Home1
+export default Home1;
